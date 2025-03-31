@@ -4,6 +4,9 @@
 #Function 2
 # Returns Surface Area of Rectangular Solid
 
+# Katelyn's function
+def rect_surface_area(length, width, height):
+    return 2*(length*height+length*width+width*height)
 # Request the dimension of a solid rectangular object
 
 length = int(input("Enter the length of the the object as a integer: "))
